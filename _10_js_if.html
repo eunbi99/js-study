@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function(){
+      var fish = $("#img1");
+
+      $("#btnStart").click(function(){
+        var value=window.prompt("x좌표 입력");
+      })
+    })
+  </script>
+</head>
+<body>
+  <div>
+    <div id="panel">
+        <div id="bar"></div>
+        <div id="img1">
+            <img src="images/fish.png">
+        </div>
+    </div>
+    <div id="nav">
+        <button id="btnStart">좌표값 입력받기</button>
+    </div>
+</div>
+</body>
+</html>
